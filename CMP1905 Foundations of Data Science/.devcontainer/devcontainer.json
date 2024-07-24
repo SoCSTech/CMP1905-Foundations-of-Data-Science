@@ -1,7 +1,9 @@
 {
     "name": "CMP1905",
     
-    "image": "ghcr.io/socstech/dockerimages/cmp1905:latest",
+    "image": "ghcr.io/socstech/cmp1905:latest",
+
+    //"build": { "dockerfile": "Dockerfile" },
 
     "customizations": {
         "vscode": {

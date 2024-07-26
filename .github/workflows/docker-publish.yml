@@ -79,9 +79,10 @@ jobs:
           context: .
           file: ./CMP1905 Foundations of Data Science/.devcontainer/Dockerfile # THIS LINE MUST BE EDITED FOR NEW MODULES
           push: ${{ github.event_name != 'pull_request' }}
+          # THIS LINE MUST BE EDITED FOR NEW MODULES
           tags: |
             ${{ steps.meta.outputs.tags }}
-            ghcr.io/socstech/cmp1905:latest # THIS LINE MUST BE EDITED FOR NEW MODULES
+            ghcr.io/socstech/cmp1905:latest
           labels: ${{ steps.meta.outputs.labels }}
           cache-from: type=gha
           cache-to: type=gha,mode=max

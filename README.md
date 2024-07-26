@@ -1,5 +1,5 @@
 # CMP1905 - Foundations of Data Science
-This repository houses the devcontainer and docker image for the Foundations of Data Science at the University of Lincoln.
+This repository houses the devcontainer and docker image for the Foundations of Data Science module at the University of Lincoln.
 ## What is Docker?
 Docker is a platform which allows developers to create and share containers.
 
